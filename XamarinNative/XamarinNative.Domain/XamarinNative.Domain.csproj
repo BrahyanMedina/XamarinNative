@@ -63,7 +63,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinNative.Common\XamarinNative.Common.csproj">
+      <Project>{7e02a46c-0c27-4e9a-babe-259ee1ec9aea}</Project>
+      <Name>XamarinNative.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

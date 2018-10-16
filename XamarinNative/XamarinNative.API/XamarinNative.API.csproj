@@ -229,6 +229,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -311,6 +312,16 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinNative.Common\XamarinNative.Common.csproj">
+      <Project>{7e02a46c-0c27-4e9a-babe-259ee1ec9aea}</Project>
+      <Name>XamarinNative.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XamarinNative.Domain\XamarinNative.Domain.csproj">
+      <Project>{5b377086-ea13-41c8-8194-73fbd7e58094}</Project>
+      <Name>XamarinNative.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

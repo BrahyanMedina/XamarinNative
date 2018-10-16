@@ -10,6 +10,8 @@ namespace XamarinNative.Domain.Models
         public DataContext() : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<XamarinNative.Common.Models.Product> Products { get; set; }
     }
 }
 
