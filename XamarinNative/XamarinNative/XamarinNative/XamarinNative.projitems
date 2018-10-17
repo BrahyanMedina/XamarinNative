@@ -28,8 +28,5 @@
     <Page Include="$(MSBuildThisFileDirectory)Views\ProductsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="$(MSBuildThisFileDirectory)Views\_TEST.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
 </Project>

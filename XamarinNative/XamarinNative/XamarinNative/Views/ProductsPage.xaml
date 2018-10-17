@@ -23,11 +23,11 @@
                                        Grid.Column="0" 
                                        Text="{Binding Description}">
                                 </Label>
-                                <!--<Label FontAttributes="Bold" 
-                                       Grid.Column="1" 
-                                       HorizontalOptions="End"
-                                       Text="{Binding Price, StringFormat='{0:C2}'}">
-                                </Label>-->
+                                <!--<label fontattributes="bold" 
+                                       grid.column="1" 
+                                       horizontaloptions="end"
+                                       text="{binding price, stringformat='{0:c2}'}">
+                                </label>-->
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
